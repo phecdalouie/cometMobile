@@ -193,7 +193,7 @@ header {
     
 }
 
-.pricesbackground {
+div.pricesbackground {
     position: relative;
     width: 100%;
     min-height: auto;

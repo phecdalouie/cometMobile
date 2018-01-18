@@ -193,12 +193,11 @@ header {
     
 }
 
-div.pricesbackground {
+ header .pricesbackground {
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
     background-image: url(../img/testpic.jpg);
     background-position: center;
     -webkit-background-size: cover;

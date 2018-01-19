@@ -158,12 +158,20 @@ var pixel2XLLCD =      270;
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-<!--<style>
-div { 
-     background-image: url(../img/testpic.jpg); 
+<style>
+.background { 
+  position: relative;
+    width: 100%;
+    min-height: auto;
+    background-image: url(../img/pic1.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 </style>
-    -->
+    
 </head>
 
 <body id="page-top">
@@ -243,9 +251,8 @@ var ScheduleMePosition = 'right';  // right, left
     </nav>
     
         <!--Top of the page header-->
-    
-<aside style="background-image: url(../img/pic1.png)">
-  <!--<div style="background-image: url(../img/testpic.jpg)"> -->
+    <aside class="background">
+<!--<aside style="background-image: url(../img/pic1.png)"> -->
   <!--  <aside class="bg-primary"> -->
         <div class="container">
             

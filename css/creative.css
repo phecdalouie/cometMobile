@@ -193,7 +193,7 @@ header {
     
 }
 
- .pricesbackground {
+aside .pricesbackground {
     position: relative;
     width: 100%;
     min-height: auto;

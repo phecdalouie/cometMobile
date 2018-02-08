@@ -346,6 +346,12 @@ header .header-content .header-content-inner p {
     color: #f05f40;
 }
 
+.fine-print {
+  font-style:italic;
+  color: #FFFFFF;
+  font-size:6px;
+}
+
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;

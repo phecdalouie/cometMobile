@@ -348,8 +348,7 @@ header .header-content .header-content-inner p {
 
 .fine-print {
   font-style:italic;
-  color: #FFFFFF;
-  font-size:6px;
+  font-size:14px;
 }
 
 .no-gutter > [class*=col-] {

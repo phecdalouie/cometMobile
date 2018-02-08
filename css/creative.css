@@ -278,6 +278,42 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+.background-price {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-image: url(../img/iphonetest.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.background-services {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-image: url(../img/waterphone.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.backgorund-products {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-image: url(../img/newproducts.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .portfolio-box {
     display: block;
     position: relative;

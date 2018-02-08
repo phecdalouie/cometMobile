@@ -193,19 +193,6 @@ header {
     
 }
 
-aside .pricesbackground {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    background-image: url(../img/pic1.png);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    
-}
-
 header .header-content {
     position: relative;
     width: 100%;

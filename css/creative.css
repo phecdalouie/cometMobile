@@ -346,7 +346,7 @@ header .header-content .header-content-inner p {
     color: #f05f40;
 }
 
-p .fine-print {
+p.fine-print {
   font-style:italic;
   color: #FFFFFF;
   font-size:6px;

@@ -377,11 +377,12 @@ header .header-content .header-content-inner p {
 .copyright-light {
     color: #ffffff;
     font-size:11px;
-    
+    text-align:center;
 }    
 .copyright-dark {
     color:#000000;
     font-size:11px;
+    text-align:center;
 }
 
 .no-gutter > [class*=col-] {

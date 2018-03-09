@@ -378,13 +378,11 @@ header .header-content .header-content-inner p {
     color:#ffffff;
     font-size:12px;
     text-align:center;
-    padding-top:30px;
 }    
 .copyright-dark {
     color:#000000;
     font-size:12px;
     text-align:center;
-    padding-top:30px;
 }
 
 .no-gutter > [class*=col-] {

@@ -374,6 +374,16 @@ header .header-content .header-content-inner p {
   font-size:14px;
 }
 
+.copyright-light {
+    color: #ffffff;
+    font-size:11px;
+    
+}    
+.copyright-dark {
+    color:#000000;
+    font-size:11px;
+}
+
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;

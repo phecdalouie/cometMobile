@@ -375,14 +375,16 @@ header .header-content .header-content-inner p {
 }
 
 .copyright-light {
-    color: #ffffff;
+    color:#ffffff;
     font-size:11px;
     text-align:center;
+    padding-top:25px;
 }    
 .copyright-dark {
     color:#000000;
     font-size:11px;
     text-align:center;
+    padding-top:25px;
 }
 
 .no-gutter > [class*=col-] {

@@ -76,6 +76,12 @@ aside {
     padding: 0;
 }
 
+.coloumn {
+    -webkit-columns: 50px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 3; /* Firefox */
+    columns: 50px 3;   
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;

@@ -76,11 +76,6 @@ aside {
     padding: 0;
 }
 
-.coloumns {
-    -webkit-columns: 50px 3; /* Chrome, Safari, Opera */
-    -moz-columns: 50px 3; /* Firefox */
-    columns: 50px 3;   
-}
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);

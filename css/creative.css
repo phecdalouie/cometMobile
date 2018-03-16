@@ -76,6 +76,11 @@ aside {
     padding: 0;
 }
 
+.paragraph-pics {
+ 	overflow: auto;
+    float: left;
+    padding: 10px;
+}
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);

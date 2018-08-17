@@ -286,6 +286,18 @@ header .header-content .header-content-inner p {
     -o-background-size: cover;
 }
 
+.background-pricestest {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-image: url(../img/newSR.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .background-services {
     position: relative;
     width: 100%;

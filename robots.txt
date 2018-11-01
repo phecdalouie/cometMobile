@@ -1,0 +1,17 @@
+User-Agent: *
+Allow: /index.html
+Allow: /services.html
+Allow: /products.html 
+Allow: /prices.html
+
+Disallow: /indexold.html
+Disallow: /pricetest.html
+Disallow: /producttest.html
+Disallow: /sale.html
+Disallow: /ecommerce.html 
+Disallow: /appntBook.html
+Disallow: /checkin.html
+Disallow: /google43bbcc7629d0d956.html
+Disallow: /imgtest.html
+Disallow: /servicetest.html
+

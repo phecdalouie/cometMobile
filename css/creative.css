@@ -406,6 +406,10 @@ header .header-content .header-content-inner p {
     text-align:center;
 }
 
+.makesapce {
+padding-bottom: 25px;
+}
+
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;

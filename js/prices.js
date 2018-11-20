@@ -61,7 +61,7 @@ var V20LCD =          145;
 //OnePlus
 var OnePlus1LCD =  100;
 var OnePlus2LCD = 110;
-var OnePlus3LD =  175; 
+var OnePlus3LCD =  175; 
 var OnePlus5LCD = 210;
 var OnePlus5TLCD = 175;
 var OnePlusXLCD = 215;

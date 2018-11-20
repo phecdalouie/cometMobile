@@ -1,4 +1,4 @@
-var iphone4sGlass =    40;
+var iphone4sGlass =    40000;
 var iphone4sLCD =      55;
 var iphone5Glass =     45;
 var iphone5LCD =       65;

@@ -1,6 +1,7 @@
 <link rel="shortcut icon" href="http://www.cometmobile.ca/img/icon.ico"/>
 
 <!-- Script that holds the variables for the screen prices -->
+<!--
 <script>
 //Apple
 var iphone4sGlass =    40;
@@ -105,6 +106,7 @@ var pixel2LCD =        235;
 var pixel2XLLCD =      270;
      
 </script>
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -163,6 +165,9 @@ var pixel2XLLCD =      270;
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    
+    <!-- JavaScript For Prices -->
+    <script type="text/javascript" src="/js/prices.js"></script>  
     
 </head>
 
@@ -308,12 +313,9 @@ var ScheduleMePosition = 'right';  // right, left
                         <br>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
                         <b>iPhone 4 / 4S</b>
-                        <p class="text-muted"><script>document.write('$' + iphone4sGlass + ' | $' + iphone4sLCD);</script></p>
+                        <p class="text-muted"><script>document.write('$' + iphone4sLCD);</script></p>
                         <br> 
-                        <b>iPhone 5</b>
-                        <p class="text-muted"><script>document.write('$' + iphone5Glass + ' | $' + iphone5LCD);</script></p>
-                        <br> 
-                        <b>iPhone 5S / 5C</b>
+                        <b>iPhone 5 / 5S / 5C</b>
                         <p class="text-muted"><script>document.write('$' + iphone5sGlass + ' | $' + iphone5sLCD);</script></p>
                         <br> 
                         <b>iPhone 6</b>
@@ -341,7 +343,7 @@ var ScheduleMePosition = 'right';  // right, left
                         <b>iPhone 7 Plus</b>
                         <p class="text-muted"><script>document.write('$' + iphone7PlusGlass + ' | $' + iphone7PlusLCD);</script></p>
                         <br>
-                        <b>iPad Mini 1,2 Screen Repair</b>
+                        <b>iPad Mini 1,2,3 Screen Repair</b>
                         <p class="text-muted"><script>document.write('$' + ipadMiniGlass);</script></p>
                         <br>
                         <b>iPad Air Screen Repair</b>
@@ -362,20 +364,20 @@ var ScheduleMePosition = 'right';  // right, left
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center"> 
                         <b>Galaxy S3</b>
                         <br>
-                         <p class="text-muted"><script>document.write('$' + galaxyS3Glass + ' | $' + galaxyS3LCD);</script></p>
+                         <p class="text-muted"><script>document.write('$' + galaxyS3LCD);</script></p>
                         <br>
                         <b>Galaxy S4</b>
                         <br>
                          <p class="text-muted"><script>document.write('$' + galaxyS4Glass + ' | $' + galaxyS4LCD);</script></p>
                         <br> 
-                        <b>Galaxy Mini S4</b>
-                        <br>
-                         <p class="text-muted"><script>document.write('$' + galaxyS4MiniGlass + ' | $' + galaxyS4MiniLCD);</script></p>
-                        <br> 
                         <b>Galaxy S5</b>
                         <br>
                          <p class="text-muted"><script>document.write('$' + galaxyS5Glass + ' | $' + galaxyS5LCD);</script></p>
                         <br>
+                         <b>Galaxy S5 Neo</b>
+                        <br>
+                         <p class="text-muted"><script>document.write('$' + galaxyS5iniGlass + ' | $' + galaxyS5MiniLCD);</script></p>
+                        <br> 
                         <b>Galaxy S6</b>
                         <br>
                          <p class="text-muted"><script>document.write('$' + galaxyS6Glass + ' | $' + galaxyS6LCD);</script></p>
@@ -388,11 +390,7 @@ var ScheduleMePosition = 'right';  // right, left
                         <br>
                          <p class="text-muted"><script>document.write('$' + galaxyS8Glass + ' | $' + galaxyS8LCD);</script></p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center"> 
-                        <b>Galaxy Note 2 </b>
-                        <br>
-                         <p class="text-muted"><script>document.write('$' + galaxyNote2LCD);</script></p>
-                        <br> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">    
                         <b>Galaxy Note 3 </b>
                         <br>
                          <p class="text-muted"><script>document.write('$' + galaxyNote3Glass + ' | $' + galaxyNote3LCD);</script></p>
@@ -408,7 +406,6 @@ var ScheduleMePosition = 'right';  // right, left
                         <b>Galaxy S6 Edge</b>
                         <br>
                         <p class="text-muted"><script>document.write('$' + galaxyS6EdgeLCD);</script></p>
-                        <p class="text-muted">(Limited Offer)</p>
                         <br>
                         <b>Galaxy S7 Edge</b>
                         <br>
@@ -468,16 +465,29 @@ var ScheduleMePosition = 'right';  // right, left
                         <br>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
                         <b>OnePlus One</b>
-                        <p class="text-muted"><script>document.write('$' + OnePlusOneLCD);</script></p>
+                        <p class="text-muted"><script>document.write('$' + OnePlus1LCD);</script></p>
                         <br> 
-                        <b>OnePlus Two</b>
-                        <p class="text-muted"><script>document.write('$' + OnePlusTwoLCD);</script></p>
+                        <b>OnePlus 2</b>
+                        <p class="text-muted"><script>document.write('$' + OnePlus2LCD);</script></p>
+                        <br>
+                        <b>OnePlus 3</b>
+                        <p class="text-muted"><script>document.write('$' + OnePlus3LCD);</script></p>
+                        <br>
+                        <b>OnePlus 5</b>
+                        <p class="text-muted"><script>document.write('$' + OnePlus5LCD);</script></p>
                         <br>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center"> 
-                        <b>OnePlus Three</b>
-                        <p class="text-muted"><script>document.write('$' + OnePlusThreeLCD);</script></p>
-                        <br></div>
+                        <b>OnePlus 5T</b>
+                        <p class="text-muted"><script>document.write('$' + OnePlus5TLCD);</script></p>
+                        <br>
+                        <b>OnePlus X</b>
+                        <p class="text-muted"><script>document.write('$' + OnePlusXLCD);</script></p>
+                        <br>
+                        <b>OnePlus 6</b>
+                        <p class="text-muted"><script>document.write('$' + OnePlus6LCD);</script></p>
+                        <br>
+                        </div>
                     </div>
                 </div>
                                              </div>
@@ -534,9 +544,6 @@ var ScheduleMePosition = 'right';  // right, left
                         <p class="text-muted">Screen Only | Full LCD Assembly</p> 
                         <br>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
-                        <b>Z2</b>
-                        <p class="text-muted"><script>document.write('$' + Z2LCD);</script></p>
-                        <br> 
                         <b>Z3</b>
                         <p class="text-muted"><script>document.write('$' + Z3LCD);</script></p>
                         <br>
@@ -564,20 +571,32 @@ var ScheduleMePosition = 'right';  // right, left
                         <b>Mate 8</b>
                         <p class="text-muted"><script>document.write('$' + mate8LCD);</script></p>
                         <br>      
-                        <b>P9</b>
-                        <p class="text-muted"><script>document.write('$' + p9LCD);</script></p>
-                        <br>     
+                         <b>Mate 9</b>
+                        <p class="text-muted"><script>document.write('$' + mate9LCD);</script></p>
+                        <br>  
+                        <b>G7</b>
+                        <p class="text-muted"><script>document.write('$' + huaweiG7LCD);</script></p>
+                        <br>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
-                        <b>Mate 9</b>
-                        <p class="text-muted"><script>document.write('$' + mate9LCD);</script></p>
-                        <br>                                                            
-                        <b>G7</b>
-                        <p class="text-muted"><script>document.write('$' + HuaweiG7LCD);</script></p>
-                        <br>
+                            <b>P9</b>
+                        <p class="text-muted"><script>document.write('$' + p9LCD);</script></p>
+                        <br>    
                         <b>P10</b>
                         <p class="text-muted"><script>document.write('$' + p10LCD);</script></p>
                         <br>     
+                              <br>
+                        <b>P20</b>
+                        <p class="text-muted"><script>document.write('$' + p20LCD);</script></p>
+                        <br>    
+                              <br>
+                        <b>P20 Pro</b>
+                        <p class="text-muted"><script>document.write('$' + p20PROLCD);</script></p>
+                        <br>    
+                              <br>
+                        <b>P20 Lite</b>
+                        <p class="text-muted"><script>document.write('$' + p20LiteLCD);</script></p>
+                        <br>    
                         </div>                      
                              </div>                             
                                 </div>
@@ -597,6 +616,9 @@ var ScheduleMePosition = 'right';  // right, left
                         <br> 
                         <b>Google Pixel XL</b>
                         <p class="text-muted"><script>document.write('$' + pixelXLLCD);</script></p>
+                        <br> 
+                        <b>Nexus 6</b>
+                        <p class="text-muted"><script>document.write('$' + Nexus6LCD);</script></p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center"> 
                         <b>Google Pixel 2</b>
@@ -605,6 +627,8 @@ var ScheduleMePosition = 'right';  // right, left
                         <b>Google Pixel 2 XL</b>
                         <p class="text-muted"><script>document.write('$' + pixel2XLLCD);</script></p>
                         <br>
+                        <b>Nexus 6P</b>
+                        <p class="text-muted"><script>document.write('$' + Nexus6PLCD);</script></p>
                         </div>
                     </div>
                 </div>       

@@ -45,7 +45,7 @@ var galaxyS8PLCD =     355;
 var galaxyNote3Glass = 65;
 var galaxyNote3LCD =   130;
 var galaxyNote4Glass = 79;
-var galaxyNote4LCD =   130;
+var galaxyNote4LCD =   165;
 var galaxyNote5Glass = 110;
 var galaxyNote5LCD =   209;
 //LG

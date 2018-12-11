@@ -110,5 +110,6 @@ var Nexus6PLCD =       220;
 var diagnostic =         25;
 var waterDamageL =       65;
 var waterDamageH =       75;
+var waterDamageSamsung = 75;
 var advancedDiagnostic = 60;
 var systemRestore =      50;

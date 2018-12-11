@@ -103,14 +103,12 @@ var pixelLCD =         150;
 var pixelXLLCD =       180;
 var pixel2LCD =        225;
 var pixel2XLLCD =      240;
-var Nexus6LCD =  190;
-var Nexus6PLCD = 220;
+var Nexus6LCD =        190;
+var Nexus6PLCD =       220;
 
-function iphone6()
-{
-document.write(iphone6Glass)
-}
-function iphone6LCD()
-{
-document.write(iphone6LCD)
-}
+//Services
+var diagnostic =         25;
+var waterDamageL =       65;
+var waterDamageH =       75;
+var advancedDiagnostic = 60;
+var systemRestore =      50;

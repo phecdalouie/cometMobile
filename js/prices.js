@@ -88,23 +88,23 @@ var M9LCD =            100;
 var M10LCD =           120;
     
 //Huawei
-var mate7LCD =         110;
+var mate7LCD =         105;
 var mate8LCD =         110;
-var mate9LCD =         120;
-var p9LCD =            115;
-var p10LCD =           130;
-var huaweiG7LCD =      95;
-var p20LCD=            220;
-var p20PROLCD=         360;
-var p20LiteLCD =       140;
+var mate9LCD =         115;
+var p9LCD =            105;
+var p10LCD =           125;
+var huaweiG7LCD =      105;
+var p20LCD=            210;
+var p20PROLCD=         370;
+var p20LiteLCD =       135;
 
 //Pixel
-var pixelLCD =         150;   
-var pixelXLLCD =       180;
-var pixel2LCD =        225;
-var pixel2XLLCD =      240;
+var pixelLCD =         140;   
+var pixelXLLCD =       160;
+var pixel2LCD =        210;
+var pixel2XLLCD =      225;
 var Nexus6LCD =        190;
-var Nexus6PLCD =       220;
+var Nexus6PLCD =       170;
 
 //Services
 var diagnostic =         25;

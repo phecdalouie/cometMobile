@@ -14,15 +14,15 @@ var iphone7LCD =       89;
 var iphone7PlusGlass = 95;
 var iphone7PlusLCD =   99;
 var iphone8Glass =     99;
-var iphone8LCD =       110;
-var iphone8PlusGlass = 109;
-var iphone8PlusLCD =   120;
+var iphone8LCD =       109;
+var iphone8PlusGlass = 105;
+var iphone8PlusLCD =   115;
 var ipad1Glass =       90;
 var ipad234Glass =     85;
 var ipadMiniGlass =    75;
 var ipadAirGlass =     90;
-var ipadAir2Glass =    195;    
-var ipadAir2LCD =      230;
+var ipadAir2Glass =    170;    
+var ipadAir2LCD =      200;
     
 //Samsung
 var galaxyS3LCD =      80;
@@ -32,25 +32,25 @@ var galaxyS5Glass =    95;
 var galaxyS5LCD =      135;
 var galaxyS5NeoGlass =  85;
 var galaxyS5NeoLCD =   155;
-var galaxyS6Glass =    109;
+var galaxyS6Glass =    105;
 var galaxyS6LCD =      180;
 var galaxyS6EdgeLCD =  175;    
 var galaxyS7Glass =    120;
-var galaxyS7LCD =      210;
-var galaxyS7EdgeLCD =  280;
-var galaxyS8Glass =    205;
-var galaxyS8LCD =      255;
-var galaxyS8PGlass =   240;
-var galaxyS8PLCD =     335;
+var galaxyS7LCD =      200;
+var galaxyS7EdgeLCD =  255;
+var galaxyS8Glass =    190;
+var galaxyS8LCD =      260;
+var galaxyS8PGlass =   230;
+var galaxyS8PLCD =     315;
 var galaxyNote3Glass = 80;
 var galaxyNote3LCD =   160;
-var galaxyNote4Glass = 85;
-var galaxyNote4LCD =   175;
+var galaxyNote4Glass = 79;
+var galaxyNote4LCD =   165;
 var galaxyNote5Glass = 130;
 var galaxyNote5LCD =   215;
 //LG
-var nexus4Glass =     75;
-var nexus4LCD =       85;
+//var nexus4Glass =     75; //correct this in page
+var nexus4LCD =       80;
 var nexus5LCD =       65;
 var nexus5XLCD =      75;
 var LGG2Glass =       85;
@@ -65,9 +65,9 @@ var V20LCD =          140;
 //OnePlus
 var OnePlus1LCD =  100;
 var OnePlus2LCD = 110;
-var OnePlus3LCD =  175; 
-var OnePlus5LCD = 210;
-var OnePlus5TLCD = 175;
+var OnePlus3LCD =  165; 
+var OnePlus5LCD = 165;
+var OnePlus5TLCD = 155;
 var OnePlusXLCD = 215;
 var OnePlus6LCD = 230;
 
@@ -94,16 +94,16 @@ var mate9LCD =         115;
 var p9LCD =            105;
 var p10LCD =           125;
 var huaweiG7LCD =      105;
-var p20LCD=            210;
+var p20LCD=            205;
 var p20PROLCD=         370;
 var p20LiteLCD =       135;
 
 //Pixel
 var pixelLCD =         140;   
 var pixelXLLCD =       160;
-var pixel2LCD =        210;
+var pixel2LCD =        190;
 var pixel2XLLCD =      225;
-var Nexus6LCD =        190;
+var Nexus6LCD =        180;
 var Nexus6PLCD =       170;
 
 //Services

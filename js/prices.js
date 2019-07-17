@@ -101,6 +101,7 @@ var M10LCD =           120;
 var mate7LCD =         105;
 var mate8LCD =         110;
 var mate9LCD =         115;
+var mate10LCD =        155;
 var p9LCD =            105;
 var p10LCD =           125;
 var huaweiG7LCD =      105;

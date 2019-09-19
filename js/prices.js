@@ -4,7 +4,7 @@ var iphone5sLCD =      60;
 var iphone6Glass =     49;
 var iphone6LCD =       60;
 var iphone6PlusGlass = 60;
-var iphone6PlusLCD =   69;
+var iphone6PlusLCD =   65;
 var iphone6SGlass =    60;
 var iphone6SLCD =      70;
 var iphone6SPlusGlass= 65;
@@ -16,13 +16,13 @@ var iphone7PlusLCD =   95;
 var iphone8Glass =     90;
 var iphone8LCD =       99;
 var iphone8PlusGlass = 100;
-var iphone8PlusLCD =   109;
-var iphoneXGlass =     160;
-var iphoneXLCD =       230;
-var iphoneXSGlass =    170;
-var iphoneXSLCD =      220;
-var iphoneXSMaxGlass = 370;
-var iphoneXSMaxLCD =   470;
+var iphone8PlusLCD =   105;
+var iphoneXGlass =     150;
+var iphoneXLCD =       220;
+var iphoneXSGlass =    165;
+var iphoneXSLCD =      250;
+var iphoneXSMaxGlass = 220;
+var iphoneXSMaxLCD =   355;
 var ipad1Glass =       90;
 var ipad234Glass =     85;
 var ipadMiniGlass =    75;
@@ -35,21 +35,21 @@ var galaxyS3LCD =      80;
 var galaxyS4Glass =    45;
 var galaxyS4LCD =      90;
 var galaxyS5Glass =    95;
-var galaxyS5LCD =      135;
+var galaxyS5LCD =      130;
 var galaxyS5NeoGlass =  85;
 var galaxyS5NeoLCD =   145;
 var galaxyS6Glass =    105;
-var galaxyS6LCD =      180;
+var galaxyS6LCD =      170;
 var galaxyS6EdgeLCD =  175;    
 var galaxyS7Glass =    120;
-var galaxyS7LCD =      180;
+var galaxyS7LCD =      170;
 var galaxyS7EdgeLCD =  255;
 var galaxyS8Glass =    175;
-var galaxyS8LCD =      240;
-var galaxyS8PGlass =   220;
+var galaxyS8LCD =      250;
+var galaxyS8PGlass =   200;
 var galaxyS8PLCD =     260;
 var galaxyS9Glass =    230;
-var galaxyS9LCD =      29075;
+var galaxyS9LCD =      290;
 var galaxyS9PGlass =    240;
 var galaxyS9PLCD =      295;
 var galaxyNote3Glass = 80;
@@ -57,14 +57,13 @@ var galaxyNote3LCD =   155;
 var galaxyNote4Glass = 79;
 var galaxyNote4LCD =   155;
 var galaxyNote5Glass = 120;
-var galaxyNote5LCD =   209;
-var galaxyNote8Glass = 250;
-var galaxyNote8LCD = 315;
+var galaxyNote5LCD =   195;
+var galaxyNote8Glass = 240;
+var galaxyNote8LCD = 300;
 var galaxyNote9Glass = 260;
 var galaxyNote9LCD = 335;
 
 //LG
-//var nexus4Glass =     75; //correct this in page
 var nexus4LCD =       80;
 var nexus5LCD =       65;
 var nexus5XLCD =      70;
@@ -75,17 +74,19 @@ var LGG3LCD =         80;
 var LGG4LCD =         75;
 var LGG5LCD =         80;
 var LGG6LCD =         135;
-var LGG6Glass =       155;
+var LGG6Glass =       145;
 var V20Glass =        130;
 var V20LCD =          140;
-    
+var V30LCD =          235;
+
+
 //OnePlus
-var OnePlus1LCD =  110;
-var OnePlus2LCD = 120;
+var OnePlus1LCD =  105;
+var OnePlus2LCD = 110;
 var OnePlus3LCD =  165; 
 var OnePlus5LCD = 160;
 var OnePlus5TLCD = 160;
-var OnePlusXLCD = 210;
+var OnePlusXLCD = 190;
 var OnePlus6LCD = 230;
 
 //Sony
@@ -108,13 +109,17 @@ var M10LCD =           120;
 var mate7LCD =         105;
 var mate8LCD =         110;
 var mate9LCD =         115;
-var mate10LCD =        155;
-var p9LCD =            105;
+var mate10LCD =        190;
+var p9LCD =            110;
 var p10LCD =           125;
 var huaweiG7LCD =      105;
 var p20LCD=            170;
 var p20PROLCD=         370;
 var p20LiteLCD =       135;
+var p30LCD=            410;
+var p30PROLCD=         450;
+var p30LiteLCD =       145;
+
 
 //Pixel
 var pixelLCD =         130;   
@@ -122,9 +127,9 @@ var pixelXLLCD =       155;
 var pixel2LCD =        165;
 var pixel2XLLCD =      250;
 var pixel3LCD =        190;
-var pixel3XLLCD =      210;
+var pixel3XLLCD =      190;
 var Nexus6LCD =        190;
-var Nexus6PLCD =       170;
+var Nexus6PLCD =       160;
 
 //Services
 var diagnostic =         25;
